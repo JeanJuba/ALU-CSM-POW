@@ -19,17 +19,9 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity control_block is
+entity block_control is
 	port(clock : in STD_LOGIC;
 		  set_a: out STD_LOGIC;
 		  reset_a: out STD_LOGIC;
@@ -42,11 +34,53 @@ entity control_block is
 	);
 
 
-end control_block;
+end block_control;
 
-architecture Behavioral of control_block is
-	type state_type is (READ_MEMORY, CHECK_MULT_VALUES, CHECK_POW_VALUES, INVERT_OPERATORS, POW, MULT, RESULT);
+architecture Behavioral of block_control is
+	type state_type is (READ_MEMORY, POW, MULT, RESULT);
+
+	signal state : state_type;
 begin
+
+process(clock, reset)
+begin
+
+	case (state) is
+	
+		when READ_MEMORY =>
+	
+		when POW =>
+		
+		when MULT =>
+		
+		when RESULT =>
+		
+		end case;
+
+end process;
+
+
+process(state)
+begin
+
+	case(state) is
+	
+		when READ_MEMORY =>
+		
+		
+		when POW =>
+		
+		
+		when MULT =>
+		
+		
+		when RESULT =>
+		
+		
+		end case;
+
+
+end process;
 
 	
 
