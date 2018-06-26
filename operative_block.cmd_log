@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Usuario/Desktop/ALU_MSS_POW/operative_block.xst" -ofn "C:/Users/Usuario/Desktop/ALU_MSS_POW/operative_block.syr" 

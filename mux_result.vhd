@@ -31,7 +31,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity mux_result is
     Port ( opt : in  STD_LOGIC;
-           a : in  STD_LOGIC;
+           a : in  STD_LOGIC_VECTOR(3 downto 0);
            data : out  STD_LOGIC_VECTOR(3 downto 0);
            control : out  STD_LOGIC);
 end mux_result;
