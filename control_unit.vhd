@@ -4,7 +4,7 @@ USE ieee.std_logic_1164.all;
 ENTITY control_unit IS
 PORT (Reset, clock, result_ready : IN STD_LOGIC;
 instruction : IN STD_LOGIC(8 DOWNTO 0);
-set_a, set_counter, set_pow, result_ready : OUT STD_LOGIC);
+set_a, set_counter, set_pow, begining, result_ready : OUT STD_LOGIC);
 END control_unit;
 
 ARCHITECTURE behaviour OF control_unit IS
@@ -18,8 +18,9 @@ BEGIN
 			state <= READ_MEMORY;
 		ELSIF (clock'EVENT AND clock = '1') THEN
 			CASE state IS
-				WHEN READ_MEMORY =>
+		WHEN READ_MEMORY =>
                 result_ready <= '0';
+			begining <= '1';
                     IF (instruction (8) = 0) THEN
                         --multiplication
                         memory_value_a <= instruction(7:4)  --downto?
@@ -45,6 +46,7 @@ BEGIN
                         --state <= READ_MEMORY;
                     --END IF;
                 WHEN MULTIPLICATION =>
+		    begining <= '0';
                     set_counter <= '1';
                     set_a <= '0';
                     IF (multiplication_ready = '1') THEN
@@ -52,6 +54,7 @@ BEGIN
                         state <= POW;
                     END IF;
                 WHEN POW =>
+		    begining <= '0';
                     set_counter '0';
                     set_a <= '0';
                     set_pow <= '0';
