@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity comparator is
-    Port ( a, b : in  STD_LOGIC_VECTOR(7 downto 0);
+    Port ( a, b : in  STD_LOGIC_VECTOR(3 downto 0);
            s 	: out  STD_LOGIC);
 end comparator; 
 

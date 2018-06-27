@@ -23,17 +23,17 @@ BEGIN
 			begining <= '1';
                     IF (instruction (8) = 0) THEN
                         --multiplication
-                        memory_value_a <= instruction(7:4)  --downto?
-                        memory_value_counter <= instruction(3:0);
+                        memory_value_a <= instruction(7 downto 4);  --downto?
+                        memory_value_counter <= instruction(3 downto 0);
                         --memory_value_pow <= '0';          --already reseted
                         set_a <= '1';
                         set_counter <= '1';
                         state <= CHECK_VALUES;
                     ELSE
                         --pow
-                        memory_value_a <= instruction(7:4)  --downto?
+                        memory_value_a <= instruction(7 downto 4);  --downto?
                         --memory_value_counter <= '0';
-                        memory_value_pow <= instruction(3:0)
+                        memory_value_pow <= instruction(3 downto 0);
                         set_a <= '1';
                         set_pow <= '1';
                         continue <= '1';
@@ -54,8 +54,8 @@ BEGIN
                         state <= POW;
                     END IF;
                 WHEN POW =>
-		    begining <= '0';
-                    set_counter '0';
+						  begining <= '0';
+                    set_counter <= '0';
                     set_a <= '0';
                     set_pow <= '0';
                     IF (pow_ready = '1') THEN

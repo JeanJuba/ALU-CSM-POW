@@ -1,16 +1,16 @@
-Release 14.2 - xst P.28xd (nt64)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/Users/Usuario/Desktop/ALU_MSS_POW/xst/projnav.tmp
+Release 13.2 - xst O.61xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/m95952/trab2/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.37 secs
  
---> Parameter xsthdpdir set to C:/Users/Usuario/Desktop/ALU_MSS_POW/xst
+--> Parameter xsthdpdir set to C:/Users/m95952/trab2/xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.37 secs
  
 --> Reading design: operative_block.prj
 
@@ -39,46 +39,46 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\subtractor.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\subtractor.vhd" into library work
 Parsing entity <subtractor>.
 Parsing architecture <Behavioral> of entity <subtractor>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\register.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\register.vhd" into library work
 Parsing entity <reg>.
-INFO:HDLCompiler:1676 - "C:\Users\Usuario\Desktop\ALU_MSS_POW\register.vhd" Line 9. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+INFO:HDLCompiler:1676 - "C:\Users\m95952\trab2\register.vhd" Line 9. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
 Parsing architecture <Behavioral> of entity <reg>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\not_logic.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\not_logic.vhd" into library work
 Parsing entity <logic_not>.
 Parsing architecture <Behavioral> of entity <logic_not>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\mux_result.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\mux_result.vhd" into library work
 Parsing entity <mux_result>.
 Parsing architecture <Behavioral> of entity <mux_result>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\logic_or.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\logic_or.vhd" into library work
 Parsing entity <logic_or>.
 Parsing architecture <Behavioral> of entity <logic_or>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\comparator_zero.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\comparator_zero.vhd" into library work
 Parsing entity <comparator_zero>.
 Parsing architecture <Behavioral> of entity <comparator_zero>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\comparator.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\comparator.vhd" into library work
 Parsing entity <comparator>.
 Parsing architecture <Behavioral> of entity <comparator>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\commutator.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\commutator.vhd" into library work
 Parsing entity <commutator>.
 Parsing architecture <Behavioral> of entity <commutator>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\adder.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\adder.vhd" into library work
 Parsing entity <adder>.
 Parsing architecture <Behavioral> of entity <adder>.
-Parsing VHDL file "C:\Users\Usuario\Desktop\ALU_MSS_POW\operative_block.vhd" into library work
+Parsing VHDL file "C:\Users\m95952\trab2\operative_block.vhd" into library work
 Parsing entity <operative_block>.
 Parsing architecture <Behavioral> of entity <operative_block>.
-INFO:HDLCompiler:1676 - "C:\Users\Usuario\Desktop\ALU_MSS_POW\operative_block.vhd" Line 33. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+INFO:HDLCompiler:1676 - "C:\Users\m95952\trab2\operative_block.vhd" Line 33. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.79 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.78 secs
  
 --> 
 
-Total memory usage is 214360 kilobytes
+Total memory usage is 246724 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

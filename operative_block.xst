@@ -1,7 +1,7 @@
-set -tmpdir "C:/Users/Usuario/Desktop/ALU_MSS_POW/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Usuario/Desktop/ALU_MSS_POW/xst"
+set -tmpdir "C:/Users/m95952/trab2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/m95952/trab2/xst"
 run -compileonly yes
--p xc7a100t-3-csg324
+-p xc7a30t-3-csg324
 -top operative_block
 -opt_mode Speed
 -opt_level 1
@@ -48,3 +48,4 @@ run -compileonly yes
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
 -ifn operative_block.prj
+-ifmt mixed

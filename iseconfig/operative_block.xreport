@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-06-26T18:14:03</DateModified>
+  <DateModified>2018-06-26T22:17:57</DateModified>
   <ModuleName>operative_block</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Usuario/Desktop/ALU_MSS_POW/iseconfig/operative_block.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Usuario/Desktop/ALU_MSS_POW</ImplementationReportsDirectory>
-  <DateInitialized>2018-06-26T18:14:03</DateInitialized>
+  <SummaryTimeStamp>2018-06-26T19:14:28</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/m95952/trab2/iseconfig/operative_block.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/m95952/trab2\</ImplementationReportsDirectory>
+  <DateInitialized>2018-06-26T19:13:15</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

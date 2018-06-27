@@ -1,0 +1,22 @@
+ISim log file
+Running: C:\Users\m95952\trab2\operative_block_tb1_verification_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view C:/Users/m95952/trab2/teste.wcfg -wdb C:/Users/m95952/trab2/operative_block_tb1_verification_isim_beh.wdb 
+ISim O.61xd (signature 0x6dd86d03)
+----------------------------------------------------------------------
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@inf.unisc.br'.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to '1717@menphis.unisc.br;2100@menphis.unisc.br'.
+WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
+WARNING:Security:44 - No license file was found.
+       Please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /operative_block_tb1_verification/uut/mult_subtractor/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.

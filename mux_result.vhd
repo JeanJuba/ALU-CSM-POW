@@ -40,7 +40,7 @@ architecture Behavioral of mux_result is
 
 begin
 	
-	data <= a when opt = '1' else "0000";
+	data <= a when opt = '0' else "0000";
 	control <= opt;
 
 end Behavioral;
