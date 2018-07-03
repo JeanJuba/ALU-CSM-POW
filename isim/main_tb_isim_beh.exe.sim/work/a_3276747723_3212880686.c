@@ -71,7 +71,7 @@ LAB6:
 LAB3:    xsi_set_current_line(31, ng0);
     t1 = (t0 + 1832U);
     t2 = *((char **)t1);
-    t1 = (t0 + 7096);
+    t1 = (t0 + 7104);
     t3 = 1;
     if (9U == 9U)
         goto LAB13;
@@ -112,7 +112,7 @@ LAB5:    xsi_set_current_line(27, ng0);
     t11 = *((int *)t7);
     t12 = (t11 - 0);
     t13 = (t12 * 1);
-    xsi_vhdl_check_range_of_index(0, 9, 1, t11);
+    xsi_vhdl_check_range_of_index(0, 10, 1, t11);
     t14 = (9U * t13);
     t15 = (0 + t14);
     t2 = (t6 + t15);

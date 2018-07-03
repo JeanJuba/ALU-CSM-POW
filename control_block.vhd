@@ -102,10 +102,12 @@ begin
 				estado <= CHECK_MULT;
 				
 			when CHECK_MULT =>
-				if mult_ready = '1' and instruction(8) = '0' then
-					estado <= RESULT_MULT;
-				elsif  mult_ready = '1' and instruction(8) = '1' then
-					estado <= CONTINUE_POW;
+				if mult_ready = '1' then 
+					if instruction(8) = '0' then
+						estado <= RESULT_MULT;
+					else --instruction(8) = '1' then
+						estado <= CONTINUE_POW;
+					end if;
 				else
 					estado <= MULT;
 				end if;

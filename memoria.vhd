@@ -9,9 +9,9 @@ end memoria;
 
 architecture Behavioral of memoria is
 	
-	type ROM is array (0 to 9) of STD_LOGIC_VECTOR(8 downto 0); --Read only memory
+	type ROM is array (0 to 10) of STD_LOGIC_VECTOR(8 downto 0); --Read only memory
 								  --2x3         3^2					3x3		2^3				FIM
-	constant mem : ROM := ("000000000", "000100011", "100110010", "000110011", "100100011", "100000010", "000100001", "100100000", "000000000", "111111111"); --"11111111" is the stop value
+	constant mem : ROM := ("000000000", "001010010", "000100011", "100110010", "000110011", "100100011", "100000010", "000100001", "100100000", "000000000", "111111111"); --"11111111" is the stop value
 	signal mem_value : STD_LOGIC_VECTOR(8 downto 0);
 	signal empty : STD_LOGIC := '0';
 	

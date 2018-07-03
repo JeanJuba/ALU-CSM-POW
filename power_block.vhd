@@ -85,7 +85,7 @@ signal base_val, counter_val, result_val, sub_val, mux_counter_out, mux_result_o
 signal comp_zero_out, comp_counter_out, or_result_out : std_logic;
 begin
 
-	reg_expoente : reg port map (clock, set_base,      reset_base,      mem_base, base_val);
+	reg_base : reg port map (clock, set_base,      reset_base,      mem_base, base_val);
 	reg_contador : reg port map (clock, set_counter,   reset_counter,   mux_counter_out, counter_val);
 	reg_resultado : reg port map(clock, set_resultado, reset_resultado, mux_result_out, result_val);
 	
