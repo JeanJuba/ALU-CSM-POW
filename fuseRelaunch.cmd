@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/m95952/trab2/operative_block_tb1_verification_isim_beh.exe" -prj "C:/Users/m95952/trab2/operative_block_tb1_verification_beh.prj" "work.operative_block_tb1_verification" 
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_isim_beh.exe" -prj "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_beh.prj" "work.main_tb" 

@@ -19,7 +19,7 @@ ARCHITECTURE behavior OF reg_tb IS
    signal stored : std_logic_vector(3 downto 0);
 
    -- Clock period definitions
-   constant clock_period : time := 10 ns;
+   constant clock_period : time := 20 ns;
  
 BEGIN
  
@@ -42,8 +42,8 @@ BEGIN
    end process;
  
 
-	input <= "0010";
+	input <= "0010", "1111" after 30ns, "1010" after 60 ns, "1100" after 75 ns, "1001" after 90 ns;
 	set <= '1';
-	reset <= '1' after 50 ns;
+	reset <= '1' after 150 ns;
 
 END;

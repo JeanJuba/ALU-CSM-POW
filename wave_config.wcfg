@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="main_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/main_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/estado" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">estado</obj_property>
+      <obj_property name="ObjectShortName">estado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/instruction_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction_mem[8:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_mem[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/spcl_case/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/spcl_case/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mlt/base_val" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">base_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">base_val[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mlt/vezes_val" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vezes_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vezes_val[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mlt/result_val" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">result_val[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mlt/adder_val" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adder_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_val[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mlt/base_value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">base_value[3:0]</obj_property>
+      <obj_property name="ObjectShortName">base_value[3:0]</obj_property>
+      <obj_property name="label">base_value_MULT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mlt/vezes_value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">vezes_value[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vezes_value[3:0]</obj_property>
+      <obj_property name="label">vezes_value_MULT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mult_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mult_result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_result[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/pow/counter_val" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_val[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/mlt/result_ready" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">result_ready</obj_property>
+      <obj_property name="ObjectShortName">result_ready</obj_property>
+      <obj_property name="label">result_ready_MULT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">result[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/result_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">result_ready</obj_property>
+      <obj_property name="ObjectShortName">result_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/set_base_mult" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_base_mult</obj_property>
+      <obj_property name="ObjectShortName">set_base_mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/reset_base_mult" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_base_mult</obj_property>
+      <obj_property name="ObjectShortName">reset_base_mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/set_vezes_mult" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_vezes_mult</obj_property>
+      <obj_property name="ObjectShortName">set_vezes_mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/reset_vezes_mult" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_vezes_mult</obj_property>
+      <obj_property name="ObjectShortName">reset_vezes_mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/set_result_mult" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_result_mult</obj_property>
+      <obj_property name="ObjectShortName">set_result_mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/reset_result_mult" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_result_mult</obj_property>
+      <obj_property name="ObjectShortName">reset_result_mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/set_base_pow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_base_pow</obj_property>
+      <obj_property name="ObjectShortName">set_base_pow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/reset_base_pow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_base_pow</obj_property>
+      <obj_property name="ObjectShortName">reset_base_pow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/set_counter_pow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_counter_pow</obj_property>
+      <obj_property name="ObjectShortName">set_counter_pow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/reset_counter_pow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_counter_pow</obj_property>
+      <obj_property name="ObjectShortName">reset_counter_pow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/set_result_pow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_result_pow</obj_property>
+      <obj_property name="ObjectShortName">set_result_pow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/ctrl/reset_result_pow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_result_pow</obj_property>
+      <obj_property name="ObjectShortName">reset_result_pow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">result[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/result_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">result_ready</obj_property>
+      <obj_property name="ObjectShortName">result_ready</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,7 @@
+vhdl work "subtractor.vhd"
+vhdl work "register.vhd"
+vhdl work "mux.vhd"
+vhdl work "comparator_zero.vhd"
+vhdl work "commutator.vhd"
+vhdl work "adder.vhd"
+vhdl work "mult_block.vhd"

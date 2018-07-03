@@ -1,46 +1,46 @@
-Running: C:\winapp\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/m95952/trab2/operative_block_tb1_verification_isim_beh.exe -prj C:/Users/m95952/trab2/operative_block_tb1_verification_beh.prj work.operative_block_tb1_verification 
-ISim O.61xd (signature 0x6dd86d03)
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_isim_beh.exe -prj C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_beh.prj work.main_tb 
+ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/m95952/trab2/subtractor.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/register.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/not_logic.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/mux_result.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/mux.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/logic_or.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/logic_and.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/comparator_zero.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/comparator.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/commutator.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/adder.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/operative_block.vhd" into library work
-Parsing VHDL file "C:/Users/m95952/trab2/operative_block_tb1_verification.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/subtractor.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/register.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/mux.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/logic_or.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/comparator_zero.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/commutator.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/adder.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/special_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/power_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/mult_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/memoria.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/control_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/MAIN_BLOCK.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 187732 KB
-Fuse CPU Usage: 124 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package numeric_std
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling architecture behavioral of entity memoria [memoria_default]
+Compiling architecture behavioral of entity special_block [special_block_default]
+Compiling architecture behavioral of entity control_block [control_block_default]
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling architecture behavioral of entity comparator [comparator_default]
+Compiling package numeric_std
 Compiling architecture behavioral of entity commutator [commutator_default]
 Compiling architecture behavioral of entity reg [reg_default]
-Compiling architecture behavioral of entity mux [mux_default]
-Compiling architecture behavioral of entity comparator_zero [comparator_zero_default]
-Compiling architecture behavioral of entity logic_or [logic_or_default]
-Compiling architecture behavioral of entity mux_result [mux_result_default]
-Compiling architecture behavioral of entity subtractor [subtractor_default]
-Compiling architecture behavioral of entity logic_not [logic_not_default]
 Compiling architecture behavioral of entity adder [adder_default]
-Compiling architecture behavioral of entity logic_and [logic_and_default]
-Compiling architecture behavioral of entity operative_block [operative_block_default]
-Compiling architecture behavior of entity operative_block_tb1_verification
+Compiling architecture behavioral of entity subtractor [subtractor_default]
+Compiling architecture behavioral of entity comparator_zero [comparator_zero_default]
+Compiling architecture behavioral of entity mult_block [mult_block_default]
+Compiling architecture behavioral of entity logic_or [logic_or_default]
+Compiling architecture behavioral of entity power_block [power_block_default]
+Compiling architecture behavioral of entity MAIN_BLOCK [main_block_default]
+Compiling architecture behavior of entity main_tb
 Time Resolution for simulation is 1ps.
-Waiting for 10 sub-compilation(s) to finish...
-Compiled 30 VHDL Units
-Built simulation executable C:/Users/m95952/trab2/operative_block_tb1_verification_isim_beh.exe
-Fuse Memory Usage: 207476 KB
-Fuse CPU Usage: 264 ms
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 32 VHDL Units
+Built simulation executable C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_isim_beh.exe
+Fuse Memory Usage: 36944 KB
+Fuse CPU Usage: 685 ms
