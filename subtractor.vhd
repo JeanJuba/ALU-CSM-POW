@@ -14,7 +14,7 @@ architecture Behavioral of subtractor is
 
 begin
 
-	s <= a - b;
+	s <= a - b when a > "0000" else "0000";
 
 end Behavioral;
 

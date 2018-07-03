@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_isim_beh.exe" -prj "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_beh.prj" "work.main_tb" 
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Usuario/Desktop/ALU-CSM-POW/main_tb_isim_beh.exe" -prj "C:/Users/Usuario/Desktop/ALU-CSM-POW/main_tb_beh.prj" "work.main_tb" 

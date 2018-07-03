@@ -1,22 +1,22 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_isim_beh.exe -prj C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_beh.prj work.main_tb 
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Usuario/Desktop/ALU-CSM-POW/main_tb_isim_beh.exe -prj C:/Users/Usuario/Desktop/ALU-CSM-POW/main_tb_beh.prj work.main_tb 
 ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/subtractor.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/register.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/mux.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/logic_or.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/comparator_zero.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/commutator.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/adder.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/special_block.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/power_block.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/mult_block.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/memoria.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/control_block.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/MAIN_BLOCK.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/subtractor.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/register.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/mux.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/logic_or.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/comparator_zero.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/commutator.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/adder.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/special_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/power_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/mult_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/memoria.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/control_block.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/MAIN_BLOCK.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/Desktop/ALU-CSM-POW/main_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -39,8 +39,8 @@ Compiling architecture behavioral of entity power_block [power_block_default]
 Compiling architecture behavioral of entity MAIN_BLOCK [main_block_default]
 Compiling architecture behavior of entity main_tb
 Time Resolution for simulation is 1ps.
-Waiting for 5 sub-compilation(s) to finish...
+Waiting for 9 sub-compilation(s) to finish...
 Compiled 32 VHDL Units
-Built simulation executable C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb_isim_beh.exe
-Fuse Memory Usage: 36944 KB
-Fuse CPU Usage: 685 ms
+Built simulation executable C:/Users/Usuario/Desktop/ALU-CSM-POW/main_tb_isim_beh.exe
+Fuse Memory Usage: 36928 KB
+Fuse CPU Usage: 623 ms

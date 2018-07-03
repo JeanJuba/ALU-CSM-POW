@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/comparator_zero.vhd";
+static const char *ng0 = "C:/Users/Usuario/Desktop/ALU-CSM-POW/comparator_zero.vhd";
 extern char *IEEE_P_3620187407;
 
 
@@ -51,8 +51,8 @@ static void work_a_1280820523_3212880686_p_0(char *t0)
 LAB0:    xsi_set_current_line(14, ng0);
     t1 = (t0 + 1032U);
     t2 = *((char **)t1);
-    t1 = (t0 + 4392U);
-    t3 = (t0 + 4420);
+    t1 = (t0 + 4348U);
+    t3 = (t0 + 4376);
     t6 = (t5 + 0U);
     t7 = (t6 + 0U);
     *((int *)t7) = 0;

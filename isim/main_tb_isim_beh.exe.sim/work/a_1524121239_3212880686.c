@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/mult_block.vhd";
+static const char *ng0 = "C:/Users/Usuario/Desktop/ALU-CSM-POW/mult_block.vhd";
 
 
 
