@@ -21,15 +21,16 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/mux.vhd";
+static const char *ng0 = "C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/comparator.vhd";
+extern char *IEEE_P_2592010699;
 
 
 
-static void work_a_0290344353_3212880686_p_0(char *t0)
+static void work_a_2683404259_3212880686_p_0(char *t0)
 {
     char *t1;
     char *t2;
-    unsigned char t3;
+    char *t3;
     unsigned char t4;
     char *t5;
     char *t6;
@@ -42,40 +43,37 @@ static void work_a_0290344353_3212880686_p_0(char *t0)
     char *t13;
     char *t14;
     char *t15;
-    char *t16;
 
-LAB0:    xsi_set_current_line(15, ng0);
-    t1 = (t0 + 1352U);
+LAB0:    xsi_set_current_line(13, ng0);
+    t1 = (t0 + 1192U);
     t2 = *((char **)t1);
-    t3 = *((unsigned char *)t2);
-    t4 = (t3 == (unsigned char)2);
+    t1 = (t0 + 1032U);
+    t3 = *((char **)t1);
+    t1 = ((IEEE_P_2592010699) + 4024);
+    t4 = xsi_vhdl_greater(t1, t2, 4U, t3, 4U);
     if (t4 != 0)
         goto LAB3;
 
 LAB4:
-LAB5:    t10 = (t0 + 1192U);
-    t11 = *((char **)t10);
-    t10 = (t0 + 3232);
-    t12 = (t10 + 56U);
-    t13 = *((char **)t12);
-    t14 = (t13 + 56U);
-    t15 = *((char **)t14);
-    memcpy(t15, t11, 4U);
+LAB5:    t10 = (t0 + 2912);
+    t11 = (t10 + 56U);
+    t12 = *((char **)t11);
+    t13 = (t12 + 56U);
+    t14 = *((char **)t13);
+    *((unsigned char *)t14) = (unsigned char)2;
     xsi_driver_first_trans_fast_port(t10);
 
-LAB2:    t16 = (t0 + 3152);
-    *((int *)t16) = 1;
+LAB2:    t15 = (t0 + 2832);
+    *((int *)t15) = 1;
 
 LAB1:    return;
-LAB3:    t1 = (t0 + 1032U);
-    t5 = *((char **)t1);
-    t1 = (t0 + 3232);
-    t6 = (t1 + 56U);
+LAB3:    t5 = (t0 + 2912);
+    t6 = (t5 + 56U);
     t7 = *((char **)t6);
     t8 = (t7 + 56U);
     t9 = *((char **)t8);
-    memcpy(t9, t5, 4U);
-    xsi_driver_first_trans_fast_port(t1);
+    *((unsigned char *)t9) = (unsigned char)3;
+    xsi_driver_first_trans_fast_port(t5);
     goto LAB2;
 
 LAB6:    goto LAB2;
@@ -83,9 +81,9 @@ LAB6:    goto LAB2;
 }
 
 
-extern void work_a_0290344353_3212880686_init()
+extern void work_a_2683404259_3212880686_init()
 {
-	static char *pe[] = {(void *)work_a_0290344353_3212880686_p_0};
-	xsi_register_didat("work_a_0290344353_3212880686", "isim/main_tb_isim_beh.exe.sim/work/a_0290344353_3212880686.didat");
+	static char *pe[] = {(void *)work_a_2683404259_3212880686_p_0};
+	xsi_register_didat("work_a_2683404259_3212880686", "isim/main_tb_isim_beh.exe.sim/work/a_2683404259_3212880686.didat");
 	xsi_register_executes(pe);
 }

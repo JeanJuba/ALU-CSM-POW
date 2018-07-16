@@ -44,7 +44,10 @@ begin
 	process(clock)
 	begin
 		if instruction(8) = '1' then --POWER
-			if instruction(7 downto 4) = "0000" then
+			if instruction(7 downto 4) = "0000" and instruction(3 downto 0) = "0000" then
+					a <= "0001";
+					b <= "0001";
+			elsif instruction(7 downto 4) = "0000" then
 					a <= "0000";
 					b <= "0001";
 			elsif instruction(3 downto 0) = "0000" then

@@ -9,16 +9,18 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|MAIN_BLOCK.vhd/mlt - mult_block - Behavioral</ClosedNode>
          <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|MAIN_BLOCK.vhd/pow - power_block - Behavioral</ClosedNode>
+         <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|Usuario|Desktop|VHDL|ALU-CSM-POW|MAIN_BLOCK.vhd/mlt - mult_block - Behavioral</ClosedNode>
+         <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|Usuario|Desktop|VHDL|ALU-CSM-POW|MAIN_BLOCK.vhd/pow - power_block - Behavioral</ClosedNode>
          <ClosedNode>/power_block - Behavioral C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|power_block.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>mem - memoria - Behavioral (C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/memoria.vhd)</SelectedItem>
+         <SelectedItem>mem - memoria - Behavioral (C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/memoria.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000169000000020000000000000000000000000200000064ffffffff000000810000000300000002000001690000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000185000000020000000000000000000000000200000064ffffffff000000810000000300000002000001850000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>mem - memoria - Behavioral (C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/memoria.vhd)</CurrentItem>
+      <CurrentItem>mem - memoria - Behavioral (C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/memoria.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -30,7 +32,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000fb000000010000000100000000000000000000000064ffffffff000000810000000000000001000000fb0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -43,7 +45,7 @@
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>adder.vhd</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -70,7 +72,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000fb000000010000000100000000000000000000000064ffffffff000000810000000000000001000000fb0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -79,18 +81,23 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/main_tb - behavior C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|main_tb.vhd/uut - MAIN_BLOCK - Behavioral/mlt - mult_block - Behavioral</ClosedNode>
          <ClosedNode>/main_tb - behavior C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|main_tb.vhd/uut - MAIN_BLOCK - Behavioral/pow - power_block - Behavioral</ClosedNode>
+         <ClosedNode>/main_tb - behavior C:|Users|Usuario|Desktop|VHDL|ALU-CSM-POW|main_tb.vhd/uut - MAIN_BLOCK - Behavioral/mlt - mult_block - Behavioral</ClosedNode>
+         <ClosedNode>/main_tb - behavior C:|Users|Usuario|Desktop|VHDL|ALU-CSM-POW|main_tb.vhd/uut - MAIN_BLOCK - Behavioral/pow - power_block - Behavioral</ClosedNode>
+         <ClosedNode>/memoria_tb - behavior C:|Users|Usuario|Desktop|VHDL|ALU-CSM-POW|memoria_tb.vhd</ClosedNode>
          <ClosedNode>/mult_block_tb - behavior C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|mult_block_tb.vhd</ClosedNode>
+         <ClosedNode>/mult_block_tb - behavior C:|Users|Usuario|Desktop|VHDL|ALU-CSM-POW|mult_block_tb.vhd</ClosedNode>
          <ClosedNode>/power_block - Behavioral C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|power_block.vhd</ClosedNode>
          <ClosedNode>/reg_tb - behavior C:|Users|Usuario|Desktop|ALTERNATIVE_MULT_POW|reg_tb.vhd</ClosedNode>
+         <ClosedNode>/reg_tb - behavior C:|Users|Usuario|Desktop|VHDL|ALU-CSM-POW|reg_tb.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>main_tb - behavior (C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb.vhd)</SelectedItem>
+         <SelectedItem>main_tb - behavior (C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/main_tb.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017d0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000199000000020000000000000000000000000200000064ffffffff000000810000000300000002000001990000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>main_tb - behavior (C:/Users/Usuario/Desktop/ALTERNATIVE_MULT_POW/main_tb.vhd)</CurrentItem>
+      <CurrentItem>main_tb - behavior (C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/main_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -98,26 +105,26 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016c0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000fb000000010000000100000000000000000000000064ffffffff000000810000000000000001000000fb0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Behavioral Simulation</CurrentView>

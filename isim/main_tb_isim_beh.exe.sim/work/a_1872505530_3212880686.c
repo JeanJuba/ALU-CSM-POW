@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Usuario/Desktop/ALU-CSM-POW/subtractor.vhd";
+static const char *ng0 = "C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/subtractor.vhd";
 extern char *IEEE_P_3620187407;
 
 char *ieee_p_3620187407_sub_767740470_3965413181(char *, char *, char *, char *, char *, char *);
@@ -62,8 +62,8 @@ static void work_a_1872505530_3212880686_p_0(char *t0)
 LAB0:    xsi_set_current_line(17, ng0);
     t1 = (t0 + 1032U);
     t2 = *((char **)t1);
-    t1 = (t0 + 4544U);
-    t3 = (t0 + 4608);
+    t1 = (t0 + 4572U);
+    t3 = (t0 + 4636);
     t6 = (t5 + 0U);
     t7 = (t6 + 0U);
     *((int *)t7) = 0;
@@ -81,7 +81,7 @@ LAB0:    xsi_set_current_line(17, ng0);
         goto LAB3;
 
 LAB4:
-LAB7:    t24 = (t0 + 4612);
+LAB7:    t24 = (t0 + 4640);
     t26 = (t0 + 2912);
     t27 = (t26 + 56U);
     t28 = *((char **)t27);
@@ -96,10 +96,10 @@ LAB2:    t31 = (t0 + 2832);
 LAB1:    return;
 LAB3:    t7 = (t0 + 1032U);
     t12 = *((char **)t7);
-    t7 = (t0 + 4544U);
+    t7 = (t0 + 4572U);
     t13 = (t0 + 1192U);
     t14 = *((char **)t13);
-    t13 = (t0 + 4560U);
+    t13 = (t0 + 4588U);
     t15 = ieee_p_3620187407_sub_767740470_3965413181(IEEE_P_3620187407, t11, t12, t7, t14, t13);
     t16 = (t11 + 12U);
     t9 = *((unsigned int *)t16);

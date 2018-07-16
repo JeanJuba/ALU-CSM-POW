@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Usuario/Desktop/ALU-CSM-POW/memoria.vhd";
+static const char *ng0 = "C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/memoria.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
@@ -71,7 +71,7 @@ LAB6:
 LAB3:    xsi_set_current_line(31, ng0);
     t1 = (t0 + 1832U);
     t2 = *((char **)t1);
-    t1 = (t0 + 7104);
+    t1 = (t0 + 7172);
     t3 = 1;
     if (9U == 9U)
         goto LAB13;

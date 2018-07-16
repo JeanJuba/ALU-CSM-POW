@@ -89,11 +89,25 @@ architecture Behavioral of mult_block is
            r : out  STD_LOGIC_VECTOR(3 downto 0));
 	end component;
 
+	component comparator
+    Port ( a, b : in  STD_LOGIC_VECTOR(3 downto 0);
+           s 	: out  STD_LOGIC);
+	end component; 
+
+
+	component logic_not 
+    Port ( a : in  STD_LOGIC;
+           s : out  STD_LOGIC);
+	end component;
+	
+	
 	
 	signal base_val, vezes_val, result_val, adder_val, sub_val, mux_vezes_val, left_commut, right_commut : STD_LOGIC_VECTOR(3 downto 0);
-	
+	signal comp_out, not_mult_zero, or_out : STD_LOGIC;
 begin
-	commut : commutator port map (base_value, vezes_value, mult_zero, left_commut, right_commut);
+	
+	compar : comparator port map (base_value, vezes_value, comp_out);
+	commut : commutator port map (base_value, vezes_value, comp_out, left_commut, right_commut);
 	reg_base : reg port map (clock, set_base, reset_base, left_commut, base_val);
 	reg_vezes : reg port map (clock, set_vezes, reset_vezes, mux_vezes_val, vezes_val);
 	reg_resultado : reg port map (clock, set_result, reset_result, adder_val, result_val);
@@ -102,7 +116,7 @@ begin
 	add : adder port map (base_val, result_val, adder_val);
 	sub : subtractor port map (vezes_val, "0001", sub_val);
 	
-	comparator : comparator_zero port map (vezes_val, result_ready);
+	comparat : comparator_zero port map (vezes_val, result_ready);
 	
 	result <= result_val;
 	

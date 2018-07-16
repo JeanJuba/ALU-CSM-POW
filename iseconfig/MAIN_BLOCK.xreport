@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-07-03T15:24:29</DateModified>
+  <DateModified>2018-07-16T03:18:03</DateModified>
   <ModuleName>MAIN_BLOCK</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Usuario/Desktop/ALU-CSM-POW/iseconfig/MAIN_BLOCK.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Usuario/Desktop/ALU-CSM-POW\</ImplementationReportsDirectory>
-  <DateInitialized>2018-07-01T12:43:58</DateInitialized>
+  <SavedFilePath>C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/iseconfig/MAIN_BLOCK.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW\</ImplementationReportsDirectory>
+  <DateInitialized>2018-07-16T03:11:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

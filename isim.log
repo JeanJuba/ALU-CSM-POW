@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\Usuario\Desktop\ALU-CSM-POW\main_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view C:/Users/Usuario/Desktop/ALU-CSM-POW/wave_config.wcfg -wdb C:/Users/Usuario/Desktop/ALU-CSM-POW/main_tb_isim_beh.wdb 
+Running: C:\Users\Usuario\Desktop\VHDL\ALU-CSM-POW\main_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/wave_config.wcfg -wdb C:/Users/Usuario/Desktop/VHDL/ALU-CSM-POW/main_tb_isim_beh.wdb 
 ISim P.28xd (signature 0xa0883be4)
 This is a Full version of ISim.
 Time resolution is 1 ps
